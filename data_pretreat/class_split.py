@@ -31,5 +31,5 @@ if __name__ == '__main__':
             split = line.strip('\n').split(',')
             for i in range(len(class_list)):
                 if split[i + 1] == '1.0':
-                    copyfile(os.path.join(train_source, split[0]+ '.jpg'),
-                             os.path.join(train_path, class_list[i],split[0]+ '.jpg'))
+                    copyfile(os.path.join(train_source, split[0] + '.jpg'),
+                             os.path.join(train_path, class_list[i], split[0] + '.jpg'))
